@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Aaron L Bloom</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="StyleSheet" href="css/aaronlbloom.css" type="text/css">	
+<link rel="stylesheet" href="/css/base.css" type="text/css" media="all" />
+<!-- Draggable box  from: http://jqueryui.com/demos/draggable/ , Dialog Box from http://jqueryui.com/demos/dialog/#animated-->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+			<script src="http://code.jquery.com/ui/1.8.23/jquery-ui.min.js" type="text/javascript"></script>
+			<script src="http://jquery-ui.googlecode.com/svn/tags/latest/external/jquery.bgiframe-2.1.2.js" type="text/javascript"></script>
+			<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.23/themes/base/jquery-ui.css" type="text/css" media="all" />
+			<script src="js\aaronlbloom.js" type="text/javascript"></script>
+			<script>
+			document.getElementById("classCard").style.visibility='hidden';
+			</script>
+</head>
+<body>
+	<div  id="mainCard">
+		<div id="draggable1" class="card" >
+				<div class="logoContainer">  
+						<img  src="img\HBGLogo.jpg" width="300"> 
+				</div>
+				<a   href="#" onclick="javascript:showlayer('classCard')"><img src="img\harvardeslogo.jpg"width="75" height="70" align="right"  alt='Click Here for Harvard Class Info' title='Click Here for Harvard Class Info' > </a>
+				<div class="contentContainer">
+					<div class="padding"></div>
+					<div class="padding"></div>
+					<div class="cardName">
+							<div id="dialog" title="About Me">
+										I am a software developer and business analyst with Hachette Book Group, a major book publishing company. 
+										I live and work in the Boston area although originaly hail from New York. 
+										I am married and have two children, a dog and two cats.  
+							</div>
+								Aaron L Bloom <img src="img\get_info.ico" height="22" width="22"   id="opener" alt='Click for more about me' title='Click for more about me'  ></img>
+					</div>
+					<div class="cardTitle">
+								Business Analyst, IT Applications
+					</div>
+					<div class="padding"></div>
+					<div class="cardAddress">
+								Three Center Plaza, Boston MA 02108-2084 
+		<a href="https://maps.google.com/maps?q=3+center+plaza&ie=UTF-8&hq=&hnear=0x89e37084e83c8847:0x9221950a5d980f88,3+Center+Plaza,+Boston,+MA+02108&gl=us&ei=xbRQUPGxI8Lb0QGXiYHoAQ&ved=0CCEQ8gEwAA">
+								<img src="img\maps.png" height="18" width="18" alt='Map It!' title='Map It!'  ></a>
+								<br>
+								Telephone: <a href=tel:"+1-617-263-1861">617 263 1861 </a><br>
+								<a href="http:\\www.hachettebookgroup.com">www.hachettebookgroup.com<a><br>
+								<a href="mailto:aaron.bloom@hbgusa.com">aaron.bloom@hbgusa.com<a><br> <br> <br> 
+						</div>		
+				</div>
+		</div>
+		<div  id="classCard"  style="visibility:hidden;" >
+		<div id="draggable2" class="card" >
+				<div class="logoContainer">  
+						<img  src="img\harvardeslogo.jpg" width="300"> 
+				</div>
+			     <a   href="#" onclick="javascript:showlayer('mainCard')"><img src="img\Home Button	.jpg"width="75" height="70" align="right" alt='Home' title='Home' > </a>
+				<div class="contentContainer">
+				<div class="padding"></div>
+					<div class="padding"></div>
+						<div class="cardName">
+								Aaron L Bloom 
+						</div>
+						<div class="cardTitle">
+								Student, Software Engineering <br>
+ 						</div>
+ 						<br>
+ 						<div class="cardAddress2">
+ 						Classes currently enrolled in:<br><br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<a href="http://isites.harvard.edu/icb/icb.do?keyword=k89027&pageid=icb.page521021"> E75 - Building Dynamic Web Applications, Fall 2012</a>
+								<br><br><br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Projects:
+						        <ul>
+															<li><a href="\dwa\p1\index.html">P1 - Workflow setup and essential HTML/CSS demonstration</a></li>
+															<li>P2</li>
+															<li>P3</li>
+															<li>P4</li>
+								</ul>
+						    <br><br><br><br>
+						</div>
+				</div>
+					</div>
+		</div>
+</div>
+</body>
+</html>
