@@ -1,7 +1,9 @@
 body 		{	
-		     background-color: #F7F8FF  ;
-		     font-family: Arial;
-		    background-image:url('../img/HelloWorldSmall.jpg');
+		 -- background-color: #F7F8FF  ;
+		 font-family: Arial;
+		 --background-image:url('../img/HelloWorldSmall.jpg');
+		 background-color: #99CCCC  ;
+		 background-image:url('../img/HelloWorldSmallBlue.jpg');
 		}
 .card {
 			-moz-box-shadow: -5px -5px 5px 5px #888;
@@ -26,29 +28,21 @@ body 		{
 			width:500px;
 }
 .cardName    	{
-				font-family: Arial ;
-				font-size: 24pt;
-				text-decoration:bold;
+			font-family: Arial ;
+			font-size: 24pt;
+			text-decoration:bold;
 
 			}
 .cardTitle    	{
-				font-family: Arial ;
-				font-size: 16pt;	
-				
+			font-family: Arial ;
+			font-size: 16pt;		
 				}
 .cardAddress   	{
-				font-family: Arial ;
-				font-size: 12pt;	
+			font-family: Arial ;
+			font-size: 12pt;	
 
 			}
-cardName2    	{
-				font-family: Arial ;
-				font-size: 24pt;
-				text-decoration:bold;
-				padding-top:30px;
-			}
-
 .padding   	{
 
-				padding-top:100px;
+			padding-top:100px;
 			}
