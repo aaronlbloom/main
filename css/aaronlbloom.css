@@ -17,32 +17,33 @@ body 		{
 			top:45px;
 			z-index: 1000;
 }
-.logoContainer{
+.icon	{
+			width:20px;;
+			height:20px;
+}
+#logoContainer{
 			float:left;
 			line-height: 515px;
 			line-width:400px;
+		    text-align:center;
 }
-.contentContainer{
+#contentContainer{
 			float:left;
 			height: 515px;
 			width:500px;
 }
-.cardName    	{
+#cardName    	{
 			font-family: Arial ;
 			font-size: 24pt;
 			text-decoration:bold;
-
+			padding-top:200px;
 			}
-.cardTitle    	{
+#cardTitle    	{
 			font-family: Arial ;
 			font-size: 16pt;		
 				}
-.cardAddress   	{
+#cardAddress   	{
 			font-family: Arial ;
 			font-size: 12pt;	
-
-			}
-.padding   	{
-
 			padding-top:100px;
 			}
