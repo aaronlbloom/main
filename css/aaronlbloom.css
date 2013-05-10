@@ -1,7 +1,5 @@
-body 		{	
-		 -- background-color: #F7F8FF  ;
+body 	{	
 		 font-family: Arial;
-		 --background-image:url('../img/HelloWorldSmall.jpg');
 		 background-color: #99CCCC  ;
 		 background-image:url('../img/HelloWorldSmallBlue.jpg');
 		}
@@ -18,7 +16,7 @@ body 		{
 			z-index: 1000;
 }
 .icon	{
-			width:20px;;
+			width:20px;
 			height:20px;
 }
 #logoContainer{
