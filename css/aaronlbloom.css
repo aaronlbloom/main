@@ -3,6 +3,17 @@ body 	{
 		 background-color: #99CCCC  ;
 		 background-image:url('../img/HelloWorldSmallBlue.jpg');
 		}
+#work {
+	display:block;
+}
+#home {
+	display:none;
+}
+p,li 	{
+			font-family: Calibri ;
+			font-size: 11pt;	
+}
+
 .card {
 			-moz-box-shadow: -5px -5px 5px 5px #888;
 			-webkit-box-shadow: -5px -5px 5px 5px#888;
@@ -19,29 +30,85 @@ body 	{
 			width:20px;
 			height:20px;
 }
-#logoContainer{
+#hbgContainer{
 			float:left;
 			line-height: 515px;
-			line-width:400px;
+			line-width:300px;
 		    text-align:center;
 }
-#contentContainer{
+#mepic	{
+		width:260px;
+		height:400px;
+}
+ 
+#meContainer{
+			float:left;			
+			padding:20px;
+		    text-align:center;
+			width:260px;
+}
+.contentContainer{
 			float:left;
 			height: 515px;
 			width:500px;
 }
-#cardName    	{
+.cardName    	{
 			font-family: Arial ;
 			font-size: 24pt;
 			text-decoration:bold;
-			padding-top:200px;
+			padding-top:150px;
 			}
-#cardTitle    	{
+#meName    	{
+			font-family: Calibri ;
+			font-size: 42pt;
+			text-decoration:bold;
+			padding-top:10px;
+			padding-bottom:10px;
+			}
+ 
+.cardTitle    	{
 			font-family: Arial ;
 			font-size: 16pt;		
 				}
-#cardAddress   	{
+.cardAddress   	{
 			font-family: Arial ;
 			font-size: 12pt;	
 			padding-top:100px;
 			}
+.cardStuff   	{
+			font-family: Arial ;
+			font-size: 15pt;	
+}
+#label	{
+			font-family: Comic Sans MS ;
+			font-size: 14pt;
+			text-decoration:bold;
+			padding-top:20px;		
+}
+
+.submit a{	 
+	background: #7F93B7; 
+	color: #FFFFFF; 
+	text-decoration:none
+}
+.submit  {  
+    width: auto;  
+    padding: 9px 15px;  
+    background: #617798;  
+    border: 0;  
+    font-size: 14px;  
+    color: #FFFFFF;  
+    float:top;	
+    
+    border: 1px solid black;
+	margin: 0px auto;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+    } 
+.submit:hover{
+	background: #7F93B7; 
+	color: #FFFFFF; 
+}
