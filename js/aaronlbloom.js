@@ -18,14 +18,14 @@ $(document).ready(function(){
 							return false;
 						});
 					});			
-$("#homeButton").click(function() {
+	$("#homeButton").click(function() {
 	console.log('Testing console');	  
       	  	  $( "#home" ).css("display","block");
       	      $( "#work" ).css("display","none");
 	  return false;
         });
         
-$("#workButton").click(function() {
+	$("#workButton").click(function() {
       	  console.log('Testing console');	  
       	  	  $( "#home" ).css("display","none");
       	      $( "#work" ).css("display","block");
