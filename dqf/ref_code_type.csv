@@ -1,6 +1,0 @@
-1000001,Data Domain,Data domains that are currently defined for enterprize data: Accounts and Users,true,2023-08-28 09:06:43.445000 UTC,Initial Load,2023-08-28 09:06:43.445000 UTC,Initial Load
-1000002,Data Quality Domain,"Standard industru Data Quality domains:  Accuracy, Validity, Comleteness, Uniqueness, Consistency and Timeliness",true,2023-08-28 09:06:43.445000 UTC,Initial Load,2023-08-28 09:06:43.445000 UTC,Initial Load
-1000003,Metric Type,"Type of data quality analysis represented by the metiric  :Data Control, Business Rule, etc.",true,2023-08-28 09:06:43.445000 UTC,Initial Load,2023-08-28 09:06:43.445000 UTC,Initial Load
-1000004,System,System associated with the metric,true,2023-08-28 09:06:43.445000 UTC,Initial Load,2023-08-28 09:06:43.445000 UTC,Initial Load
-1000005,Data Set,Data Set or Schema associated with the metric,true,2023-08-28 09:06:43.445000 UTC,Initial Load,2023-08-28 09:06:43.445000 UTC,Initial Load
-1000006,Unit of Measure,"Description of what the metric represents: Record Count, Sum or Percentage",true,2023-08-28 09:06:43.445000 UTC,Initial Load,2023-08-28 09:06:43.445000 UTC,Initial Load
